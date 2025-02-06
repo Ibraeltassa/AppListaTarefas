@@ -2,7 +2,14 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.AppListaTarefas" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item>
+        <!--Secundaty brand color-->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/secundaria_variacao</item>
+
+        <item name="android:windowBackground">@color/fundo</item>
+
     </style>
 
     <style name="Theme.AppListaTarefas" parent="Base.Theme.AppListaTarefas" />
